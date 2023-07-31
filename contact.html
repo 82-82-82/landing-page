@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- Add any additional meta tags, CSS links, or JavaScript links if needed -->
+  <style>
+    /* Internal CSS styles for the "Contact" page */
+    body {
+      /* Set the background image and adjust its properties */
+      background-image: url("https://images.pexels.com/photos/2931915/pexels-photo-2931915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+      background-size: cover; /* Cover the entire background with the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-position: center center; /* Center the image horizontally and vertically */
+      background-attachment: fixed; /* Fix the background image in place */
+    }
+
+    /* Rest of the CSS styles for the "Contact" page */
+    /* ... */
+    body {
+      /* Your body styles... */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    header {
+      /* Your header styles... */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f9f9f9;
+      padding: 10px 20px;
+    }
+
+    .header-left {
+      font-size: 1.5rem;
+    }
+
+    .header-right {
+      display: flex;
+    }
+
+    .header-right a {
+      margin-left: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    main {
+      /* Your main styles... */
+      flex: 1; /* Allow main content to take remaining vertical space */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px; /* Add padding for better spacing */
+    }
+
+    /* Style the contact form */
+    form {
+      max-width: 400px; /* Adjust the width to your desired size */
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    /* Style form fields and submit button */
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff; /* Adjust the button color as needed */
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Style the contact page background to be light grey */
+    #contactContent {
+      background-color: #f0f0f0; /* Light grey background */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Your content for the Contact page goes here -->
+  <header>
+    <!-- Include the header section with navigation links -->
+    <div class="header-left">
+      OSUMMER GEDY
+    </div>
+    <div class="header-right">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- Your main content for the Contact page -->
+  <main>
+    <div id="contactContent">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="text" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+    
+  </main>
+
+  <!-- Your footer section (if you have one) -->
+  <footer>
+    <!-- Footer content goes here -->
+  </footer>
+
+  <!-- Optionally, link any external CSS or JavaScript files here -->
+</body>
+</html>

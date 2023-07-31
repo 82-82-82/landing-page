@@ -1,0 +1,423 @@
+/* Reset some default styles for body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+}
+
+.header-left {
+  font-size: 1.5rem;
+}
+
+.header-right {
+  display: flex;
+}
+
+.header-right a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Style the main section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body {
+  /* Your body styles... */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  /* Your header styles... */
+}
+
+main {
+  /* Your main styles... */
+  flex: 1; /* Allow main content to take remaining vertical space */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Align items to the bottom */
+}
+
+.content {
+  text-align: center;
+  margin-top: 800px;
+}
+
+.about-me {
+  /* Your about-me styles... */
+  max-width: 200px; /* Adjust the width to your desired size */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.about-me h2 {
+  font-size: 1.5rem;
+  margin-top: 200px;
+}
+
+.about-me p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+footer {
+  /* Your footer styles... */
+}
+
+
+
+ 
+  
+}
+body {
+  background-image: url("https://images.pexels.com/photos/7794430/pexels-photo-7794430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+  }
+  
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  background-position: center;
+}
+main {
+  /* Your main styles... */
+  flex: 1; /* Allow main content to take remaining vertical space */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Align items to the bottom */
+}
+
+.content {
+  text-align: center;
+  margin-top: 500px; /* Adjust this value to set the distance from the top margin */
+}
+
+.about-me {
+  /* Your about-me styles... */
+  max-width: 350px; /* Adjust the width to your desired size */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Style the image to have a circular border */
+.content img {
+  border-radius: 50%;
+  width: 200px; /* Adjust the width of the circular image */
+  height: 200px; /* Adjust the height of the circular image */
+}
+main {
+  /* Your main styles... */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative; /* To position the sidebar */
+}
+
+.content {
+  text-align: center;
+  margin-right: 20px; /* Add some spacing between the image and the sidebar */
+}
+
+.about-me {
+  /* Your about-me styles... */
+  max-width: 350px; /* Adjust the width to your desired size */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Style the image to have a circular border */
+.content img {
+  border-radius: 50%;
+  width: 200px; /* Adjust the width of the circular image */
+  height: 200px; /* Adjust the height of the circular image */
+}
+
+/* Style the welcome sidebar */
+.welcome-sidebar {
+  position: absolute;
+  top: 50%; /* Position the sidebar vertically at the center */
+  right: 10px; /* Position the sidebar on the right side */
+  transform: translateY(-50%); /* Center the sidebar vertically */
+  text-align: right;
+  max-width: 250px; /* Adjust the width to your desired size */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+/* Your existing CSS styles... */
+
+/* Style the services section */
+section#services {
+  text-align: center;
+  max-width: 600px; /* Adjust the width to your desired size */
+  margin: 0 auto; /* Center the section horizontally */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#services h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+section#services ul {
+  list-style: none;
+  padding: 0;
+}
+
+section#services li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Style the link for Front-End Web Development service */
+section#services li a {
+  color: #007bff; /* Add your desired link color */
+  text-decoration: underline;
+}
+
+/* Style the services page background to be light grey */
+section#serviceContent {
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Your existing CSS styles... */
+
+/* Hide the services content on page load */
+#serviceContent {
+  display: none;
+}
+
+/* Your existing CSS styles... */
+/* Add this CSS to your existing styles or external CSS file */
+#web-design {
+  background-color: #f0f0f0; /* Grey background color */
+  width: 80%; /* Adjust the width as needed */
+  max-width: 600px; /* Limit the maximum width for responsiveness */
+  margin: 0 auto; /* Center the section horizontally */
+  padding: 30px; /* Add some padding for better spacing */
+
+}
+
+#web-design h2 {
+  color: #333; /* Text color for the heading */
+}
+
+#web-design ul {
+  list-style-type: disc; /* Set bullet points style to disc */
+  padding-left: 20px; /* Add some left padding to align the bullet points */
+}
+#web-design img {
+  max-width: 300px; /* Adjust the image width if necessary */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+body {
+  /* Your body styles... */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+}
+
+.header-left {
+  font-size: 1.5rem;
+}
+
+.header-right {
+  display: flex;
+}
+
+.header-right a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Style the rest of your page as needed */
+body {
+  /* Your body styles... */
+  position: relative;
+}
+
+.services-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Style the rest of your page as needed */
+/* Style the main section */
+main {
+  /* Your main styles... */
+  flex: 1; /* Allow main content to take remaining vertical space */
+  display: flex;
+  flex-direction: column; /* Align sections vertically */
+  align-items: center; /* Center sections horizontally */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+/* Style the content container */
+.content {
+  text-align: center;
+  margin-top: 800px; /* Adjust this value to set the distance from the top margin */
+}
+
+/* Style the About Me section */
+.about-me {
+  max-width: 350px; /* Adjust the width to your desired size */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Style the image to have a circular border */
+.content img {
+  border-radius: 50%;
+  width: 200px; /* Adjust the width of the circular image */
+  height: 200px; /* Adjust the height of the circular image */
+}
+
+.about-me h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.about-link {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.contact-link {
+  position: absolute;
+  top: 10px;
+  right: 2000px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+/* Add this CSS to your existing styles or external CSS file */
+
+/* Style the header-right section */
+.header-right {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.header-right a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+}
+/* Add this CSS to your existing styles or external CSS file */
+
+/* Style the header-right section */
+.header-right {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.header-right a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Add some space between the links */
+.header-right a:not(:last-child) {
+  margin-right: 15px;
+}
+
+
+
+
+
+
